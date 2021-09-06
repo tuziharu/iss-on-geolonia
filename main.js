@@ -10,7 +10,7 @@ function moveISS(marker) {
       marker.setLngLat(cordinates).addTo(map);
       map.panTo(cordinates);
     });
-  setTimeout(function(){moveISS(marker)}, 5000);
+  setTimeout(function(){moveISS(marker)}, 2000);
 }
 
 map.on('load', () => {
